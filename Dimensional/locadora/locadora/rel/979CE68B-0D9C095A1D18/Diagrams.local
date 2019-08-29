@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="0CC3BA2C-A53E-7C25-9CE3-3DD561310E8C" name="locadora_dimensional_estrela" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

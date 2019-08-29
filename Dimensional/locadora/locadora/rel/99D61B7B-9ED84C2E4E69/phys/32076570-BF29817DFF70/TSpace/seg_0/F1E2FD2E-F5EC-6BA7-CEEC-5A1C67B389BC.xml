@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="DADOS_MAGISTER" directorySegmentName="seg_0" id="F1E2FD2E-F5EC-6BA7-CEEC-5A1C67B389BC">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>DADOS_MAGISTER</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

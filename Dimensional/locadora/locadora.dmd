@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="locadora" id="97016BA0-9C2F-E901-B893-3C3AA5802F6D" version="3.5">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 14:01:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>97016BA0-9C2F-E901-B893-3C3AA5802F6D</designId>
+</OSDM_Design>

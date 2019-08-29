@@ -1,0 +1,233 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8CC3582-DC75-7D77-90C2-ABDD1BE531CD" name="notas_fiscais">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>4E76FE8A-998C-459F-DB3F-352C1B0C1CC4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num_nota" id="9A9FDB6C-0336-1455-3A6A-46C5FAC5C274">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>A721471A-6CA4-755B-8891-033B27EE231A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>96C2F1B1-91B5-7C27-489F-CB0633183272</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="num_nota &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_forn" id="CAE4F42B-CE41-7470-4533-A10523025C73">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>522179A2-6CF5-51D1-1425-0D42C8038B36</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7FEAA3DF-CFF3-0967-9829-BA2E34A726FA</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="cod_forn &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71A85097-BB55-AE20-31AD-F76A38F28A5C" referredColumn="2559376F-836C-7AEB-DDAC-4D07C120450C"/>
+</associations>
+</Column>
+<Column name="val_nota" id="EDDDDEBF-25BA-BF26-5819-0A29B4387A2C">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>0612C483-5240-0F49-BF70-B4654128F985</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>348C0C16-0851-097D-ED13-045C3B9BA8FA</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="val_nota &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="per_icms" id="28E76359-9DA9-64AF-A04B-EB636905A8F0">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>3BFDFB72-7068-C3BF-6D7B-454653A951CA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>51EF1B26-E3BA-3059-2C7D-6812759AF64F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="per_ipi" id="876A1B84-A7CF-8E45-F626-64620D53D393">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>CBDEE1DB-8171-D17A-131A-EDA1EE1E3221</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>51EF1B26-E3BA-3059-2C7D-6812759AF64F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="per_frete" id="DE99F7B1-ED78-992F-9111-DA570C4D8915">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>964AA0A0-7799-AB6A-4AF5-2294E8F370C5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>51EF1B26-E3BA-3059-2C7D-6812759AF64F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="val_total" id="3D4CF387-4A67-BFB5-097C-959F19C428EF">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>24975DDE-1022-79E1-3AE5-680FE47E02BF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DB6474F4-A34E-C2F4-9F39-3C2DA17916D2</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="val_total &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_nota" id="367B265C-3008-3B8A-88B9-A193234BE6E8">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>2C79D02A-3FAF-8C01-F83D-618AC6A57C4E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0E1E172E-7A69-D46B-6EF7-F0B114BA191D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dat_venc" id="377BF945-37E6-C2C0-6730-FC02EEA574A9">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>352F3A9C-915F-6CD2-F03C-DB9EFBACE8BD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0E1E172E-7A69-D46B-6EF7-F0B114BA191D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sta_nota" id="AC8084DB-24B9-0CB3-8717-7DFF4CC6E8C9">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>BFEE846A-5E02-F76B-3401-36E46E53B1C5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>7EA03ED9-E1DB-6AFE-E7E2-E63861716F7B</domain>
+<listOfValues>
+<valueDef value="L" description=""/>
+<valueDef value="N" description=""/>
+<valueDef value="P" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83B13E9E-2D8A-8B67-6125-2738ECEB2570" name="not_pk">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>DF1D3C15-FEC8-B5FA-A21B-04257EE99246</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A9FDB6C-0336-1455-3A6A-46C5FAC5C274"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F8DABCD-B63F-33D6-2046-B82ACCC303BA" name="not_idx_cod_forn">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>E885C050-49B2-193E-1DD7-832607C2BB14</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAE4F42B-CE41-7470-4533-A10523025C73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33AFD484-79CD-A92C-31C6-9D1A5C643B71" name="not_fk_for">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAE4F42B-CE41-7470-4533-A10523025C73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="not_ck_valores" directorySegmentName="seg_0" id="19741C51-1902-DCC9-0E4A-4E61B47ED589">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>2483EE3F-A496-28D8-CA2C-D9FF758A2738</importedID>
+<rule>val_total &gt;= val_nota</rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="not_ck_datas" directorySegmentName="seg_0" id="09223BFA-940D-E960-444E-022A040229B9">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>32036794-DE83-D4BA-1154-E7ABEC034FC3</importedID>
+<rule>dat_nota &lt; dat_venc</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

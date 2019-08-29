@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13A1975A-DA15-600A-75D8-16C9780662E6" name="LOCACOES">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>LOCACOES</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_SOC" id="1C67ED4F-D9DE-A55D-AA8B-2A82F2DD9CBC">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>LOCACOES</sourceObjSchema>
+<sourceObjName>COD_SOC</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176997</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" cod_soc &gt; 0 "/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B54756C-1BEF-4656-A51B-D31E7A50A2E9" referredColumn="901820E1-EC29-91E0-73A2-75B9BE17A877"/>
+</associations>
+</Column>
+<Column name="DAT_LOC" id="DBC9798D-316A-D538-76E0-2446F5B86F65">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>LOCACOES</sourceObjSchema>
+<sourceObjName>DAT_LOC</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VAL_LOC" id="90D31821-0555-7764-E0C5-ADE52ECBBCDA">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>LOCACOES</sourceObjSchema>
+<sourceObjName>VAL_LOC</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176998</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" val_loc &gt;= 0 "/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_VENC" id="38C1ADA7-3C26-7972-CB19-BCC6BC84EBF1">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>LOCACOES</sourceObjSchema>
+<sourceObjName>DAT_VENC</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STA_PGTO" id="EA3EF48E-5438-A822-E1A9-0C1D7004F41B">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>LOCACOES</sourceObjSchema>
+<sourceObjName>STA_PGTO</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176999</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;P&apos;" description=""/>
+</listOfValues>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_PGTO" id="33119C02-72DE-BE27-4B8E-1020826402F1">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>LOCACOES</sourceObjSchema>
+<sourceObjName>DAT_PGTO</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E699CEAD-1B46-BDA1-8ADD-A0730E9870CD" name="LOC_PK">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>LOC_PK</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C67ED4F-D9DE-A55D-AA8B-2A82F2DD9CBC"/>
+<colUsage columnID="DBC9798D-316A-D538-76E0-2446F5B86F65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A92A088B-E471-72D2-1A0C-4E47EC0E5C9D" schemaObject="26310133-E2B7-DCAB-1D5B-49122448E654" name="LOC_PK">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>LOC_PK</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C67ED4F-D9DE-A55D-AA8B-2A82F2DD9CBC"/>
+<colUsage columnID="DBC9798D-316A-D538-76E0-2446F5B86F65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BD21C5C-273D-E56C-7790-EC68DD33F69B" name="LOC_FK_SOC">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:11 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C67ED4F-D9DE-A55D-AA8B-2A82F2DD9CBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="LOC_CK_DATAS" directorySegmentName="seg_0" id="37A277F6-EBD5-1FF2-AD04-93F36EBA3CA9">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>LOC_CK_DATAS</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<rule> dat_venc &gt; dat_loc and nvl( dat_pgto, dat_loc ) &gt;= dat_loc </rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="LOC_CK_PGTO" directorySegmentName="seg_0" id="7143FD75-0B66-1523-980A-D1A2D7DD8D12">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>LOC_CK_PGTO</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<rule> ( dat_pgto is null and sta_pgto=&apos;N&apos; ) or ( dat_pgto is not null and sta_pgto=&apos;P&apos; ) </rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

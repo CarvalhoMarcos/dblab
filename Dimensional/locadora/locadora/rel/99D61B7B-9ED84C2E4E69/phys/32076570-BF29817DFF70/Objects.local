@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="TSpace" objectID="F1E2FD2E-F5EC-6BA7-CEEC-5A1C67B389BC" name="DADOS_MAGISTER" seqName="seg_0"/>
+   <object objectType="User" objectID="6F280737-361A-FBCC-531E-F0B5AD368395" name="ABNEIDE" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="0C6AB1B2-3A18-B6C2-B1E8-7A2384F57C37" name="GRAVADORAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="13A1975A-DA15-600A-75D8-16C9780662E6" name="LOCACOES" seqName="seg_0"/>
+   <object objectType="Table" objectID="2983FD63-CA23-881F-E9B9-2276DCBE6704" name="ARTISTAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="4D0866D3-8AF7-5C23-1B47-857A7BB59AEB" name="TIPOS_SOCIOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="5FBD18A9-6657-962C-9EF2-61568FB82CC8" name="COPIAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="6CE5D1D7-F856-DB3D-4B6A-9D3C573DD3B6" name="ITENS_LOCACOES" seqName="seg_0"/>
+   <object objectType="Table" objectID="761A50E9-3BE7-47FD-80B8-AD73C5034BD9" name="TITULOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="B64F5385-18B3-C59C-DDA7-6191050C5709" name="SOCIOS" seqName="seg_0"/>
+   <object objectType="Segment" objectID="AB1105D3-5A70-0AD1-5289-B27505FDB58A" name="Storage1" seqName="seg_0"/>
+   <object objectType="Segment" objectID="805870F6-CD69-622C-08BE-4AD076FF260B" name="Storage9" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

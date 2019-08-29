@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A11A0EDB-0F17-5DB4-0105-0A1FF94E7207" name="itens_de_pedido">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>69F70894-2439-9E9D-34CB-2D0541258D4D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num_ped" id="47EC5241-3503-1B10-B319-081D9A468694">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>4A5BD3DB-E5E9-775F-F12E-FDF67EC8C062</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>96C2F1B1-91B5-7C27-489F-CB0633183272</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="num_ped &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A0F5C64-B23D-44C3-AA34-95DB23253D2D" referredColumn="11C6773A-1371-689E-D89B-181E342A88C8"/>
+</associations>
+</Column>
+<Column name="cod_prod" id="5CA558E0-9AA9-9E1B-1B0F-8B72802BC4F6">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>0645883B-3F58-2E69-9F3A-440056E3FC89</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>96C2F1B1-91B5-7C27-489F-CB0633183272</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="cod_prod &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA511F7F-694F-8252-EEDA-4A3ADA10EEFF" referredColumn="F3013B66-267E-4270-C7A2-DEEC0F43490E"/>
+</associations>
+</Column>
+<Column name="qtd_ped" id="08CAF6D4-5EF7-7824-F2CA-29812649E463">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>072828CD-9847-FF32-FE06-8CEA3D4A5AE7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7958DDDA-1736-C535-4E2E-FF774B864771</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="qtd_ped &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco_pro" id="939CD919-311A-2228-1A38-64CA18D03889">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>483CF485-097A-36B0-D263-C06D78F18306</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>20D3C2E2-D6CB-5B9E-998D-786A19E2D834</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="preco_pro &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F253BA0-C5A2-6364-3299-C596EDA1F7AD" name="itp_pk">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>EF81D3CF-215C-0441-8046-8745497429E5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47EC5241-3503-1B10-B319-081D9A468694"/>
+<colUsage columnID="5CA558E0-9AA9-9E1B-1B0F-8B72802BC4F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E051A686-39A8-69CF-71B9-FC6B7EDB0B53" name="itp_idx_num_ped">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>C38400F0-4C2F-0CDC-FCEE-E3642F76CB0B</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47EC5241-3503-1B10-B319-081D9A468694"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98CE7FB6-8737-EE02-BDF9-01628B1093CA" name="itp_idx_cod_prod">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>1416CA52-196A-A232-6F28-D8A50B1246C9</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CA558E0-9AA9-9E1B-1B0F-8B72802BC4F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D54DC24-D70B-B9A6-09E9-6B649C4DDEB5" name="itp_fk_ped">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47EC5241-3503-1B10-B319-081D9A468694"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3149869B-E827-3C6B-383C-B2A92B602BFD" name="itp_fk_pro">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CA558E0-9AA9-9E1B-1B0F-8B72802BC4F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

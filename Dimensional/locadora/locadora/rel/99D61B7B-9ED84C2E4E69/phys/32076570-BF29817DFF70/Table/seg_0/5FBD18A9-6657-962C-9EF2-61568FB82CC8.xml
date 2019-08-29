@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="COPIAS" directorySegmentName="seg_0" id="5FBD18A9-6657-962C-9EF2-61568FB82CC8">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<schemaObject>26310133-E2B7-DCAB-1D5B-49122448E654</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AB1105D3-5A70-0AD1-5289-B27505FDB58A</segment>
+<tableSpace>F1E2FD2E-F5EC-6BA7-CEEC-5A1C67B389BC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COP_PK" id="208B9658-1F88-B836-0BEA-B59DDAFFEB5F">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<schemaObject>26310133-E2B7-DCAB-1D5B-49122448E654</schemaObject>
+<segment>805870F6-CD69-622C-08BE-4AD076FF260B</segment>
+<tableSpace>F1E2FD2E-F5EC-6BA7-CEEC-5A1C67B389BC</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COP_FK_TIT_I" id="F442D4EB-FF8A-91A0-DF39-90A94923A74D">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<schemaObject>26310133-E2B7-DCAB-1D5B-49122448E654</schemaObject>
+<segment>805870F6-CD69-622C-08BE-4AD076FF260B</segment>
+<tableSpace>F1E2FD2E-F5EC-6BA7-CEEC-5A1C67B389BC</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DAT_AQ" id="05A9EE02-8B8B-653C-12DF-5460A1FBDF66">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="1D1B4E06-7AE0-7856-994B-22D86DA8C96E">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_TIT" id="5356C821-ACD0-2AB3-4469-FB4496280077">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_COP" id="F82A1424-DB32-86B2-0842-5DBDFDB22FEA">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="COP_FK_TIT" id="F1F3BFCB-B07B-9A9C-625E-95A1306F685A">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:11 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COP_PK" id="4B927A22-FC7E-EF02-FCB9-74193A91C038">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<segment>805870F6-CD69-622C-08BE-4AD076FF260B</segment>
+<tableSpace>F1E2FD2E-F5EC-6BA7-CEEC-5A1C67B389BC</tableSpace>
+<existingIndex>208B9658-1F88-B836-0BEA-B59DDAFFEB5F</existingIndex>
+<indexSegment>805870F6-CD69-622C-08BE-4AD076FF260B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="itens_de_pedido" directorySegmentName="seg_0" id="A11A0EDB-0F17-5DB4-0105-0A1FF94E7207">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="qtd_ped" id="08CAF6D4-5EF7-7824-F2CA-29812649E463">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="num_ped" id="47EC5241-3503-1B10-B319-081D9A468694">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cod_prod" id="5CA558E0-9AA9-9E1B-1B0F-8B72802BC4F6">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="preco_pro" id="939CD919-311A-2228-1A38-64CA18D03889">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="itp_idx_cod_prod" id="98CE7FB6-8737-EE02-BDF9-01628B1093CA">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="itp_idx_num_ped" id="E051A686-39A8-69CF-71B9-FC6B7EDB0B53">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="itp_fk_pro" id="3149869B-E827-3C6B-383C-B2A92B602BFD">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="itp_fk_ped" id="3D54DC24-D70B-B9A6-09E9-6B649C4DDEB5">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="itp_pk" id="7F253BA0-C5A2-6364-3299-C596EDA1F7AD">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

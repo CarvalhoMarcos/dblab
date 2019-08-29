@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB253017-74AB-8DBD-73B5-5B0AFA3C6A8E" name="FT_VENDAS">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:23:09 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PROD" id="9068C98E-1D2C-74E7-CF73-DD16BB129B9F">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:34:55 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F66A56E8-4028-C808-6C4F-669CDD6F60E3" referredColumn="E758405F-CD91-7B93-691E-45C26617EC80"/>
+</associations>
+</Column>
+<Column name="ID_TEMPO" id="13327F90-8F51-9360-4AC8-EB5AB5F6C9B2">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:35:02 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7CB7E1A-E6DA-168B-B19E-9317D80E881A" referredColumn="71EE159A-B6E0-AEDA-535C-A807B95E4877"/>
+</associations>
+</Column>
+<Column name="ID_TIPO_VENDA" id="AC0D1B83-CD71-7762-788D-9C45AEC8ACF9">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:35:08 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="544D281E-CC90-9CA3-A853-2772423BE18E" referredColumn="E433D4F4-5E0E-141C-2883-D3E352A2B9A3"/>
+</associations>
+</Column>
+<Column name="VALOR_VENDA" id="FD341D04-DD0E-1047-90EE-2C4FC0322762">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:23:28 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="491DD6C5-2210-ADFC-81CA-96369CE256EE" name="FT_VENDAS_DM_PRODUTOS_FK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:35:28 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9068C98E-1D2C-74E7-CF73-DD16BB129B9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="784CF0BD-E14A-0E73-11A3-5542EA46C35C" name="FT_VENDAS_DM_TEMPO_FK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:35:28 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13327F90-8F51-9360-4AC8-EB5AB5F6C9B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F5E9C77-39D2-C90E-8550-C964A8338260" name="FT_VENDAS_DM_TIPOS_VENDAS_FK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:35:28 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC0D1B83-CD71-7762-788D-9C45AEC8ACF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

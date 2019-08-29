@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF1E66D3-FF86-2A9A-59C2-D2C91AE9605B" name="DM_GRAVADORA">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:37:41 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_GRAV" id="33116F12-E0A4-A3C3-BEE2-75609B3734D1">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>GRAVADORAS</sourceObjSchema>
+<sourceObjName>COD_GRAV</sourceObjName>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:39:06 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176929</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" cod_grav &gt; 0 "/>
+</checkConstraint>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UF_GRAV" id="8DB14A84-7ED0-ED4A-C6B7-DF51585E2853">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>GRAVADORAS</sourceObjSchema>
+<sourceObjName>UF_GRAV</sourceObjName>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:39:06 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176930</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;AC&apos;" description=""/>
+<valueDef value="&apos;AL&apos;" description=""/>
+<valueDef value="&apos;AM&apos;" description=""/>
+<valueDef value="&apos;BA&apos;" description=""/>
+<valueDef value="&apos;CE&apos;" description=""/>
+<valueDef value="&apos;DF&apos;" description=""/>
+<valueDef value="&apos;ES&apos;" description=""/>
+<valueDef value="&apos;GO&apos;" description=""/>
+<valueDef value="&apos;MA&apos;" description=""/>
+<valueDef value="&apos;MG&apos;" description=""/>
+<valueDef value="&apos;MS&apos;" description=""/>
+<valueDef value="&apos;MT&apos;" description=""/>
+<valueDef value="&apos;PA&apos;" description=""/>
+<valueDef value="&apos;PB&apos;" description=""/>
+<valueDef value="&apos;PE&apos;" description=""/>
+<valueDef value="&apos;PI&apos;" description=""/>
+<valueDef value="&apos;PR&apos;" description=""/>
+<valueDef value="&apos;RJ&apos;" description=""/>
+<valueDef value="&apos;RN&apos;" description=""/>
+<valueDef value="&apos;RO&apos;" description=""/>
+<valueDef value="&apos;RR&apos;" description=""/>
+<valueDef value="&apos;RS&apos;" description=""/>
+<valueDef value="&apos;SC&apos;" description=""/>
+<valueDef value="&apos;SE&apos;" description=""/>
+<valueDef value="&apos;SP&apos;" description=""/>
+<valueDef value="&apos;TO&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAC_BRAS" id="01941379-4C44-3351-FCEC-E27C8CEE578C">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>GRAVADORAS</sourceObjSchema>
+<sourceObjName>NAC_BRAS</sourceObjName>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:39:07 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176931</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;F&apos;" description=""/>
+<valueDef value="&apos;V&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_GRAV" id="D0344077-CEA8-42B4-53C7-416B9BD5E161">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>GRAVADORAS</sourceObjSchema>
+<sourceObjName>NOM_GRAV</sourceObjName>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:39:07 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FAE44AA-428A-9500-FC67-AFA4616FDE2E" name="DM_GRAVADORA_PK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:53:00 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33116F12-E0A4-A3C3-BEE2-75609B3734D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

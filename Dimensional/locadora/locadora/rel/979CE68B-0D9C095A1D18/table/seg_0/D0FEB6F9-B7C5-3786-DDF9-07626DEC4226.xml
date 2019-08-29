@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0FEB6F9-B7C5-3786-DDF9-07626DEC4226" name="DM_ARTISTA">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:33:09 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ART" id="A004ABC8-EB65-CF4B-5DB8-8A00C218AFA5">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ARTISTAS</sourceObjSchema>
+<sourceObjName>COD_ART</sourceObjName>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:33:58 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176940</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" cod_art &gt; 0 "/>
+</checkConstraint>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TPO_ART" id="D04D368A-4C53-6D04-C7C1-0648CCB9F5B7">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ARTISTAS</sourceObjSchema>
+<sourceObjName>TPO_ART</sourceObjName>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:33:59 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176941</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;B&apos;" description=""/>
+<valueDef value="&apos;D&apos;" description=""/>
+<valueDef value="&apos;I&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAC_BRAS" id="17ED8B2A-7014-EF40-073C-085C0E57BF2E">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ARTISTAS</sourceObjSchema>
+<sourceObjName>NAC_BRAS</sourceObjName>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:33:59 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176942</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;F&apos;" description=""/>
+<valueDef value="&apos;V&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_ART" id="A65E6727-3193-C169-5DD0-28A14010D3FF">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ARTISTAS</sourceObjSchema>
+<sourceObjName>NOM_ART</sourceObjName>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:33:59 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F84F046-ABC7-B6AF-86D7-C13FBAE5DE58" name="DM_ARTISTAS_PK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:35:01 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A004ABC8-EB65-CF4B-5DB8-8A00C218AFA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

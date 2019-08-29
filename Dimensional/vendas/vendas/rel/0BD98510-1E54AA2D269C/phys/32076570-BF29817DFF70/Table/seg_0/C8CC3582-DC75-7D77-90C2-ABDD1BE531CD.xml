@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="notas_fiscais" directorySegmentName="seg_0" id="C8CC3582-DC75-7D77-90C2-ABDD1BE531CD">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="per_icms" id="28E76359-9DA9-64AF-A04B-EB636905A8F0">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dat_nota" id="367B265C-3008-3B8A-88B9-A193234BE6E8">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dat_venc" id="377BF945-37E6-C2C0-6730-FC02EEA574A9">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="val_total" id="3D4CF387-4A67-BFB5-097C-959F19C428EF">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="per_ipi" id="876A1B84-A7CF-8E45-F626-64620D53D393">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="num_nota" id="9A9FDB6C-0336-1455-3A6A-46C5FAC5C274">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sta_nota" id="AC8084DB-24B9-0CB3-8717-7DFF4CC6E8C9">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cod_forn" id="CAE4F42B-CE41-7470-4533-A10523025C73">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="per_frete" id="DE99F7B1-ED78-992F-9111-DA570C4D8915">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="val_nota" id="EDDDDEBF-25BA-BF26-5819-0A29B4387A2C">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="not_idx_cod_forn" id="6F8DABCD-B63F-33D6-2046-B82ACCC303BA">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="not_fk_for" id="33AFD484-79CD-A92C-31C6-9D1A5C643B71">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="not_pk" id="83B13E9E-2D8A-8B67-6125-2738ECEB2570">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="not_ck_datas" id="09223BFA-940D-E960-444E-022A040229B9">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="not_ck_valores" id="19741C51-1902-DCC9-0E4A-4E61B47ED589">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev11g>

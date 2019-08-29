@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D0866D3-8AF7-5C23-1B47-857A7BB59AEB" name="TIPOS_SOCIOS">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>TIPOS_SOCIOS</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_TPS" id="4610F2DE-3144-ECE0-352C-3922BD758B82">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>TIPOS_SOCIOS</sourceObjSchema>
+<sourceObjName>COD_TPS</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176978</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" cod_tps &gt; 0 "/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIM_TIT" id="2A0A8DCB-7D93-DAF9-7AB0-EDD03A30F8F8">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>TIPOS_SOCIOS</sourceObjSchema>
+<sourceObjName>LIM_TIT</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176979</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" lim_tit &gt; 0 "/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VAL_BASE" id="EBF53C07-FC79-8E17-989C-169BB7B67924">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>TIPOS_SOCIOS</sourceObjSchema>
+<sourceObjName>VAL_BASE</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176980</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" val_base &gt; 0 "/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DSC_TPS" id="3143B2B4-42B1-9C9C-9BFF-874620BE1F82">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>TIPOS_SOCIOS</sourceObjSchema>
+<sourceObjName>DSC_TPS</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37D103EF-9774-38C0-0DCF-127992EF8252" name="TPS_PK">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>TPS_PK</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:10 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4610F2DE-3144-ECE0-352C-3922BD758B82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1932382A-58FC-EAAB-B5AB-E9875B47BE05" schemaObject="26310133-E2B7-DCAB-1D5B-49122448E654" name="TPS_PK">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>TPS_PK</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4610F2DE-3144-ECE0-352C-3922BD758B82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6759668D-3116-7F2D-530F-1C52FC79D8EA" schemaObject="26310133-E2B7-DCAB-1D5B-49122448E654" name="TPS_DSC_TPS_I">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>TPS_DSC_TPS_I</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3143B2B4-42B1-9C9C-9BFF-874620BE1F82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

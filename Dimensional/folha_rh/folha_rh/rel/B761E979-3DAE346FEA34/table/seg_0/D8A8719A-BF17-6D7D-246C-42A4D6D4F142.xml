@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8A8719A-BF17-6D7D-246C-42A4D6D4F142" name="FT_LANCAMENTOS">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:36:58 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CARGO" id="6BEBE07A-12EB-F722-8C52-7368C9A044C2">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:23:42 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A7FA90E-D731-95A5-0AD1-537FF909AD9B" referredColumn="7402CB61-DF71-F1CC-BA39-B8AC45BDCD5D"/>
+</associations>
+</Column>
+<Column name="ID_COLAB" id="4DD4BC45-02A1-0896-34AB-7167CE139C82">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:23:48 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4119D949-5609-552E-45FD-9B8A989A7776" referredColumn="1CFD5869-7055-CA1D-0A8C-D1B7729231B0"/>
+</associations>
+</Column>
+<Column name="ID_FAIXA" id="1AD7006B-3253-21FD-3A2C-A51E6DB4221A">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:23:56 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC630AF5-459F-9038-C5E3-AC01DBFB0915" referredColumn="4F00F1DA-5A67-A00E-DEDD-7EE1D318AC80"/>
+</associations>
+</Column>
+<Column name="ID_RUBRICA" id="59C03773-4E8E-F6D0-F460-581C788E5AC3">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:24:14 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55F7BB28-3F2A-1304-70A1-31EAEBFB714D" referredColumn="F774A38A-FFF9-B0CE-9A45-D98FA9CD0C49"/>
+</associations>
+</Column>
+<Column name="ID_TEMPO" id="89E804FB-C40D-86DB-5A60-614E9C012E02">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:24:21 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B67145A3-A635-B809-770C-73EBB54B2914" referredColumn="71EE159A-B6E0-AEDA-535C-A807B95E4877"/>
+</associations>
+</Column>
+<Column name="ID_TEMP_SERV" id="4070629F-63C1-2957-9588-6FA1FE158D7B">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:24:29 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F6A7F1E-4721-D0B8-4C9A-954DB5160B3D" referredColumn="A8ADD8C2-01AC-FD77-4F1A-406E59C7EDE1"/>
+</associations>
+</Column>
+<Column name="FOLHA_BRUTA" id="10206962-C19A-8227-3AE3-70AFE1715319">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:38:25 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOLHA_LIQUIDA" id="98AAA8D3-C802-E48B-D40E-F1BC6BDB7E59">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:38:25 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="754C4973-32AD-EE2B-C87A-C38CBD352C93" name="FT_LANCAMENTOS_DM_CARGOS_FK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:27:09 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BEBE07A-12EB-F722-8C52-7368C9A044C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E58BFD7-4D11-7AB1-34CF-93A0FA189F6F" name="FT_LANCAMENTOS_DM_COLABORADORES_FK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:27:09 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DD4BC45-02A1-0896-34AB-7167CE139C82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7C450A2-B6B0-F07A-CC7C-1502DB28BD97" name="FT_LANCAMENTOS_DM_FAIXAS_ETARIAS_FK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:27:09 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AD7006B-3253-21FD-3A2C-A51E6DB4221A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="932B7B0E-BE73-8056-EAB3-BE2A24E7D0B0" name="FT_LANCAMENTOS_DM_RUBRICAS_FK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:27:09 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59C03773-4E8E-F6D0-F460-581C788E5AC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABC8DB53-16D4-E9E2-418F-DE6DD9D7590B" name="FT_LANCAMENTOS_DM_TEMPO_FK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:27:09 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89E804FB-C40D-86DB-5A60-614E9C012E02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60A969E7-A080-5141-A507-705702B06110" name="FT_LANCAMENTOS_DM_TEMPO_SERVICO_FK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:27:09 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4070629F-63C1-2957-9588-6FA1FE158D7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

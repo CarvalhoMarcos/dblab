@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="vendas" id="58045BD1-E73C-2598-C784-FB1A8EA07A4F" version="3.5">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:34:43 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>58045BD1-E73C-2598-C784-FB1A8EA07A4F</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="0FCB1384-025D-0309-46EC-6F924D257B48">
+<designStoragePath>E:\tabelas</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="5108832C-F21E-B7DC-9B6E-DFF2299022F7">
+<designStoragePath>E:\tabelas</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

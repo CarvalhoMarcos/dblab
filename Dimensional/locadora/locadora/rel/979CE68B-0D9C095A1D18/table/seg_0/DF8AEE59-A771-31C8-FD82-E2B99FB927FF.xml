@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF8AEE59-A771-31C8-FD82-E2B99FB927FF" name="DM_SOCIO">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:17:21 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SOC" id="C4EA5211-F093-0723-A95D-68A0AC57C711">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>SOCIOS</sourceObjSchema>
+<sourceObjName>COD_SOC</sourceObjName>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:18:36 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176987</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" cod_soc &gt; 0 "/>
+</checkConstraint>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_SOC" id="B37EF0C2-9755-141B-9576-77795B901B0E">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>SOCIOS</sourceObjSchema>
+<sourceObjName>NOM_SOC</sourceObjName>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:18:37 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_SOCIO" id="B9C0C555-376D-4AC1-3E65-F00251E320F1">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>TIPOS_SOCIOS</sourceObjSchema>
+<sourceObjName>DSC_TPS</sourceObjName>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:19:31 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09DBDB00-C434-9A3B-E939-D00F7B36E9CC" name="DM_SOCIOS_PK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:27:06 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4EA5211-F093-0723-A95D-68A0AC57C711"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

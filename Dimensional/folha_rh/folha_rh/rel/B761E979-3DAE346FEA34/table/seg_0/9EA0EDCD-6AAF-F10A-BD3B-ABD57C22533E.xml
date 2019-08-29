@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9EA0EDCD-6AAF-F10A-BD3B-ABD57C22533E" name="DM_COLABORADORES">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:42:43 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COLAB" id="1CFD5869-7055-CA1D-0A8C-D1B7729231B0">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:44:48 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_COLAB" id="16E119B1-0023-B562-ECA5-BC31E40959ED">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:44:48 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DSC_UNIDADE_ORG" id="F721D811-A346-F696-FD95-320067155346">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:44:48 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DSC_SETOR" id="3FD639BF-EF26-E460-26D7-EE78FD22147B">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:44:48 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C917F38-EA23-3813-6CB8-6A958BED4495" name="DM_COLABORADORES_PK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:44:48 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CFD5869-7055-CA1D-0A8C-D1B7729231B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

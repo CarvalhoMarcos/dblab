@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="044DDEAA-1EF5-0ADE-78EB-0005548102FD" name="DM_TEMPO">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:14:21 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TEMPO" id="71EE159A-B6E0-AEDA-535C-A807B95E4877">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:16:52 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NU_ANO" id="F04ED4FC-CDA5-DE1E-CB04-06A8231051A1">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:16:52 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NU_MES" id="422CB6C6-1C39-76AB-6A6C-00730E3E5FAD">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:16:52 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NU_ANOMES" id="0DBDBDDF-C46B-1C65-EF20-E09EEF38A130">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:16:52 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SG_MES" id="50C15F02-C5EC-30AF-1FC9-03CEBE29BA66">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:16:52 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_MESANO" id="31B94684-476B-31E0-BF67-E55FFBE997C8">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:16:52 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_MES" id="E224B4DE-A4A1-ACD7-D9C8-7F229C0A305E">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:16:52 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NU_DIA" id="2F9853A0-E9D7-0022-0987-A1CCFBEB74CA">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:16:52 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F1B6D6E-EC75-DADC-314A-A014B7A08C1B" name="DM_TEMPO_PK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:17:19 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71EE159A-B6E0-AEDA-535C-A807B95E4877"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

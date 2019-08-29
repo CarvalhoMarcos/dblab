@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FF63D4F-8930-6460-9691-A81186608831" name="parcelas">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>BA79C27D-CA10-6C26-43AE-B214260960FD</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num_ped" id="A2FE8039-6594-D7A9-138E-1F8D77BC8136">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>3317DB49-B874-1FDE-95B8-36DD5781004A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>96C2F1B1-91B5-7C27-489F-CB0633183272</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="num_ped &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0682998-80ED-0D67-39B7-C5ABACA91F36" referredColumn="11C6773A-1371-689E-D89B-181E342A88C8"/>
+</associations>
+</Column>
+<Column name="dat_venc" id="6334F597-C918-62E3-0DA1-80DBF229ECD0">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>180FA49C-9929-8684-CF7D-AB13E41DFB97</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0E1E172E-7A69-D46B-6EF7-F0B114BA191D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="val_parc" id="F8F4AB3F-2683-85BF-5574-4CBFBF84DA0E">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>9D26C74D-AB5A-252E-5273-60DD0BD6F282</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>441F9AA8-8383-2508-40CE-F341871D048C</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="val_parc &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="parc_paga" id="F351DC33-DADD-30B2-32B8-8A65C5CA5CDD">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>6681D6CF-1080-40DB-413A-DE53A144F808</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>7EA03ED9-E1DB-6AFE-E7E2-E63861716F7B</domain>
+<listOfValues>
+<valueDef value="F" description=""/>
+<valueDef value="V" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7390BFB-0BF8-7916-792C-F7123EBCF0C6" name="par_pk">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>11DB6D22-5F9E-83F3-E2FF-F23813529CC4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2FE8039-6594-D7A9-138E-1F8D77BC8136"/>
+<colUsage columnID="6334F597-C918-62E3-0DA1-80DBF229ECD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A479530-CD68-40DD-580F-D7AD6B2C9DB3" name="par_idx_num_ped">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>EB170416-6614-2A4E-6670-1D4EA13C7A3F</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2FE8039-6594-D7A9-138E-1F8D77BC8136"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F7DAECA-50B6-9971-68DE-6079744062EE" name="par_fk_ped">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2FE8039-6594-D7A9-138E-1F8D77BC8136"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

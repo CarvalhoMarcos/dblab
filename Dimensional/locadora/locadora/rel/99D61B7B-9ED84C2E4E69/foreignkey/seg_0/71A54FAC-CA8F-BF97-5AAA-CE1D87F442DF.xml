@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="71A54FAC-CA8F-BF97-5AAA-CE1D87F442DF" containerWithKeyObject="761A50E9-3BE7-47FD-80B8-AD73C5034BD9" localFKIndex="0DEAEAA4-4BBB-0B8A-C4C8-50B10781AB81" name="TIT_FK_GRV">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>TIT_FK_GRV</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:11 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0C6AB1B2-3A18-B6C2-B1E8-7A2384F57C37</referredTableID>
+<keyObject>14950C0F-F88A-BF82-DE55-8E6A6E1B05F8</keyObject>
+<referredKeyID>14950C0F-F88A-BF82-DE55-8E6A6E1B05F8</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

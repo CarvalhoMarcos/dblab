@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C78CB13A-31D8-B212-A64E-746C80A9D559" name="DM_CARGOS">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:44:56 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CARGO" id="7402CB61-DF71-F1CC-BA39-B8AC45BDCD5D">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:47:14 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DSC_CARGO" id="B6FB9AAB-9CC5-2FAE-F6B7-63339B3186FE">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:47:14 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DSC_CARREIRA" id="753DAB5B-041C-5DED-60D4-60FCAB403BE7">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:47:14 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC9FBCB5-0D0E-3089-9613-F610DF689571" name="DM_CARGOS_PK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:47:14 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7402CB61-DF71-F1CC-BA39-B8AC45BDCD5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

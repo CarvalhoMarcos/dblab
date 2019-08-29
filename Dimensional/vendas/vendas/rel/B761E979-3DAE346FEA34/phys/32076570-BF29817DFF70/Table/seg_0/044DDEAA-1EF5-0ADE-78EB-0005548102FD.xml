@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DM_TEMPO" directorySegmentName="seg_0" id="044DDEAA-1EF5-0ADE-78EB-0005548102FD">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:15:00 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NU_ANOMES" id="0DBDBDDF-C46B-1C65-EF20-E09EEF38A130">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:15:00 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NU_DIA" id="2F9853A0-E9D7-0022-0987-A1CCFBEB74CA">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:15:00 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NM_MESANO" id="31B94684-476B-31E0-BF67-E55FFBE997C8">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:15:00 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NU_MES" id="422CB6C6-1C39-76AB-6A6C-00730E3E5FAD">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:15:00 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SG_MES" id="50C15F02-C5EC-30AF-1FC9-03CEBE29BA66">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:15:00 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TEMPO" id="71EE159A-B6E0-AEDA-535C-A807B95E4877">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:15:00 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NM_MES" id="E224B4DE-A4A1-ACD7-D9C8-7F229C0A305E">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:15:00 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NU_ANO" id="F04ED4FC-CDA5-DE1E-CB04-06A8231051A1">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:15:00 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DM_TEMPO_PK" id="0F1B6D6E-EC75-DADC-314A-A014B7A08C1B">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:15:00 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

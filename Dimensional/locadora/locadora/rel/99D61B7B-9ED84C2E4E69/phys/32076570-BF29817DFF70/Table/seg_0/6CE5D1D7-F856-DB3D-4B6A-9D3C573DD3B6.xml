@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ITENS_LOCACOES" directorySegmentName="seg_0" id="6CE5D1D7-F856-DB3D-4B6A-9D3C573DD3B6">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<schemaObject>26310133-E2B7-DCAB-1D5B-49122448E654</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AB1105D3-5A70-0AD1-5289-B27505FDB58A</segment>
+<tableSpace>F1E2FD2E-F5EC-6BA7-CEEC-5A1C67B389BC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ITL_PK" id="79D3EDB2-E29A-3F8B-0756-7AF917E760C6">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<schemaObject>26310133-E2B7-DCAB-1D5B-49122448E654</schemaObject>
+<segment>805870F6-CD69-622C-08BE-4AD076FF260B</segment>
+<tableSpace>F1E2FD2E-F5EC-6BA7-CEEC-5A1C67B389BC</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ITL_FK_COP_I" id="850B438D-8715-EC74-377F-61E61EDFA106">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<schemaObject>26310133-E2B7-DCAB-1D5B-49122448E654</schemaObject>
+<segment>805870F6-CD69-622C-08BE-4AD076FF260B</segment>
+<tableSpace>F1E2FD2E-F5EC-6BA7-CEEC-5A1C67B389BC</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="STA_MUL" id="0C77C483-1A2B-A073-E784-4BCEFD557D45">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_COP" id="0FD126C9-23E8-27E0-739B-0FE181190AC2">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_TIT" id="3DE4C675-79F9-59FD-C073-D7C5F18C77A0">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VAL_LOC" id="60C8797C-4F19-BE91-C223-8105953D824D">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DAT_LOC" id="90877F29-2CA9-B8C4-94D1-E51B48CF62C0">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DAT_PREV" id="A900B9EA-303B-2DBD-B93F-C34E2A984471">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DAT_DEV" id="B8B068BB-718B-280E-C8BC-CC9F2DE9D4E9">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_SOC" id="BF216F9F-81EB-0674-B258-75C6D60A58B3">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ITL_FK_COP" id="A91D45DB-CB8C-D147-5D2D-F8F84050E9B8">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:11 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ITL_FK_LOC" id="EEB300D1-E6D2-EBE8-8333-E6E531DBAC95">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:11 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ITL_PK" id="F3634251-311C-8D8E-5845-01064E7FBD0C">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<segment>805870F6-CD69-622C-08BE-4AD076FF260B</segment>
+<tableSpace>F1E2FD2E-F5EC-6BA7-CEEC-5A1C67B389BC</tableSpace>
+<existingIndex>79D3EDB2-E29A-3F8B-0756-7AF917E760C6</existingIndex>
+<indexSegment>805870F6-CD69-622C-08BE-4AD076FF260B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

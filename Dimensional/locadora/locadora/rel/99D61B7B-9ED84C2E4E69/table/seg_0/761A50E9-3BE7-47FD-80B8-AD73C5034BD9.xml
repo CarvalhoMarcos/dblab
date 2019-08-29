@@ -1,0 +1,252 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="761A50E9-3BE7-47FD-80B8-AD73C5034BD9" name="TITULOS">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>TITULOS</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_TIT" id="9586FF73-FE68-7F11-0C34-EDBDC3D6C998">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>TITULOS</sourceObjSchema>
+<sourceObjName>COD_TIT</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176956</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" cod_tit &gt; 0 "/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TPO_TIT" id="E8CF2F88-EB46-C5A8-1306-9F58BD17AE5B">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>TITULOS</sourceObjSchema>
+<sourceObjName>TPO_TIT</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176957</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;C&apos;" description=""/>
+<valueDef value="&apos;D&apos;" description=""/>
+</listOfValues>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLA_TIT" id="0A49FC80-BCE9-03AC-B9DB-006F245079A3">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>TITULOS</sourceObjSchema>
+<sourceObjName>CLA_TIT</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176958</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;L&apos;" description=""/>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;P&apos;" description=""/>
+</listOfValues>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QTD_COP" id="B6887CFF-A96F-A1B4-4FDA-86921CC9E41E">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>TITULOS</sourceObjSchema>
+<sourceObjName>QTD_COP</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176959</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" qtd_cop &gt;= 0 "/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_LANC" id="E00F09B2-0266-DA8F-7746-D7A3092EE355">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>TITULOS</sourceObjSchema>
+<sourceObjName>DAT_LANC</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_ART" id="43E08E7A-CE9B-C789-35E9-FE89350669AB">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>TITULOS</sourceObjSchema>
+<sourceObjName>COD_ART</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176960</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" cod_art &gt; 0 "/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="433BCB38-D709-9F1A-ED11-0F868800AE58" referredColumn="CC9D649F-598C-FE31-E7D4-CB7BCCA073A1"/>
+</associations>
+</Column>
+<Column name="COD_GRAV" id="E066EB36-1A1A-DF28-CFDA-AD9700C1E162">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>TITULOS</sourceObjSchema>
+<sourceObjName>COD_GRAV</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176961</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" cod_grav &gt; 0 "/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71A54FAC-CA8F-BF97-5AAA-CE1D87F442DF" referredColumn="A737855E-77A6-EA59-1E97-D5D1452F8287"/>
+</associations>
+</Column>
+<Column name="DSC_TIT" id="BCBE758E-D99A-BEC9-3075-9CA23119B6A7">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>TITULOS</sourceObjSchema>
+<sourceObjName>DSC_TIT</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D454A26C-AE29-7F3C-1017-FF41D26758C8" name="TIT_PK">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>TIT_PK</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:10 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9586FF73-FE68-7F11-0C34-EDBDC3D6C998"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8924857B-193B-B815-B5E3-0AD44F353176" schemaObject="26310133-E2B7-DCAB-1D5B-49122448E654" name="TIT_DSC_TIT_I">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>TIT_DSC_TIT_I</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCBE758E-D99A-BEC9-3075-9CA23119B6A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20FEC2EF-BF78-5DA8-26AF-CFB3217B98EE" schemaObject="26310133-E2B7-DCAB-1D5B-49122448E654" name="TIT_PK">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>TIT_PK</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9586FF73-FE68-7F11-0C34-EDBDC3D6C998"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="623B9A31-CDEE-5718-FBF1-8CCE3090415F" schemaObject="26310133-E2B7-DCAB-1D5B-49122448E654" name="TIT_FK_GRV_I">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>TIT_FK_GRV_I</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E066EB36-1A1A-DF28-CFDA-AD9700C1E162"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E301B2E2-3ED4-BBB8-0074-86E67D1D7EC9" schemaObject="26310133-E2B7-DCAB-1D5B-49122448E654" name="TIT_FK_ART_I">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>TIT_FK_ART_I</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43E08E7A-CE9B-C789-35E9-FE89350669AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="472BC54C-62FB-2065-29E0-B7039DF778E2" name="TIT_FK_ART">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:11 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43E08E7A-CE9B-C789-35E9-FE89350669AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DEAEAA4-4BBB-0B8A-C4C8-50B10781AB81" name="TIT_FK_GRV">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:11 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E066EB36-1A1A-DF28-CFDA-AD9700C1E162"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

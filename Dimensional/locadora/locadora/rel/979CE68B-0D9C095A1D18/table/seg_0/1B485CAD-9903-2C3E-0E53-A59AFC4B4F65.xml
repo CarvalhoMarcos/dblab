@@ -1,0 +1,224 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B485CAD-9903-2C3E-0E53-A59AFC4B4F65" name="FT_LOCACOES">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:10:05 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SOC" id="0298ED12-EF5F-05C5-1E9F-99FB9362DAA1">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:19:53 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176987</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" cod_soc &gt; 0 "/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52F3F7CC-0DAA-F3F6-39E3-D1FB746D28EC" referredColumn="C4EA5211-F093-0723-A95D-68A0AC57C711"/>
+</associations>
+</Column>
+<Column name="ID_TITULO" id="69ADBE27-7419-760F-B6C7-ED7FAC2BC8BE">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:27:56 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176956</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" cod_tit &gt; 0 "/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8582A057-9721-3E9B-80FF-6183F41E3CD3" referredColumn="4D930BB6-5C7D-0264-ACF0-4A38A3204426"/>
+</associations>
+</Column>
+<Column name="ID_ART" id="33CCD51B-EA55-AD24-2BEC-BF6AB76DA5BA">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:35:23 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176940</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" cod_art &gt; 0 "/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="119F9AE7-18F2-F0CA-A11C-74B423EBA670" referredColumn="A004ABC8-EB65-CF4B-5DB8-8A00C218AFA5"/>
+</associations>
+</Column>
+<Column name="ID_GRAV" id="D79FF43D-5D9C-C753-615F-A5B2C2C65E16">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:40:49 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176929</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" cod_grav &gt; 0 "/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9642D3C5-DC12-7C41-0F94-072544F51D87" referredColumn="33116F12-E0A4-A3C3-BEE2-75609B3734D1"/>
+</associations>
+</Column>
+<Column name="ID_TEMPO" id="379C1F70-6FDE-6526-C773-C37FC1813EAA">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:51:39 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5D08F0F-9730-56E8-BE08-0964B5F693D1" referredColumn="E7C68C74-0064-C962-8931-14CF3BB0FE5B"/>
+</associations>
+</Column>
+<Column name="VALOR_ARRECADADO" id="59C6DD3D-1687-BF17-C5B6-B2C771198185">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ITENS_LOCACOES</sourceObjSchema>
+<sourceObjName>VAL_LOC</sourceObjName>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:03:39 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00177014</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" val_loc &gt; 0 "/>
+</checkConstraint>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEMPO_DEVOLUCAO" id="1D33FA67-76CB-57EC-DE1B-D650A28A733B">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:06:53 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00177014</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" val_loc &gt; 0 "/>
+</checkConstraint>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MULTA_ATRASO" id="2EC4ADAC-B7B7-6091-BABA-D8C6B9A0A73A">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:06:58 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00177014</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" val_loc &gt; 0 "/>
+</checkConstraint>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="119466D0-E380-C43E-1260-1CDAD42D286B" name="FT_LOCACOES_PK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 22:07:20 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0298ED12-EF5F-05C5-1E9F-99FB9362DAA1"/>
+<colUsage columnID="69ADBE27-7419-760F-B6C7-ED7FAC2BC8BE"/>
+<colUsage columnID="33CCD51B-EA55-AD24-2BEC-BF6AB76DA5BA"/>
+<colUsage columnID="D79FF43D-5D9C-C753-615F-A5B2C2C65E16"/>
+<colUsage columnID="379C1F70-6FDE-6526-C773-C37FC1813EAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E8D740F-ABBF-E9DE-52BD-4A118234B413" name="FT_LOCACOES_DM_ARTISTA_FK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:52:36 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33CCD51B-EA55-AD24-2BEC-BF6AB76DA5BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF4A1B06-3517-6720-40C2-469D0C19C3FE" name="FT_LOCACOES_DM_SOCIO_FK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:52:36 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0298ED12-EF5F-05C5-1E9F-99FB9362DAA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B253A1A8-D2FD-311E-36CC-9D508C7DA551" name="FT_LOCACOES_DM_TEMPO_FK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:52:36 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="379C1F70-6FDE-6526-C773-C37FC1813EAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="935A9300-0099-D870-2DF7-AFDD628A55F4" name="FT_LOCACOES_DM_TITULO_FK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:52:36 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69ADBE27-7419-760F-B6C7-ED7FAC2BC8BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4403885B-5D44-F204-C756-92876EAA0FB2" name="FT_LOCACOES_DM_GRAVADORA_FK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:53:15 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D79FF43D-5D9C-C753-615F-A5B2C2C65E16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0140E70-8606-EB71-E2B8-75AABDCF0E6F" name="itens_de_nota">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>8689B9B7-4D5E-C102-96A9-9D21ECC338AE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num_nota" id="662B4D51-F135-F96E-0555-B952484EC508">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>ED1DB377-23B3-6EF0-F5D9-57ABE5C19BE5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>96C2F1B1-91B5-7C27-489F-CB0633183272</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="num_nota &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C9091B2-9873-037B-3B47-795AFBAAC913" referredColumn="9A9FDB6C-0336-1455-3A6A-46C5FAC5C274"/>
+</associations>
+</Column>
+<Column name="cod_prod" id="1D7257C3-3A8D-D15A-4AF3-BDD52220943F">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>81AC5370-5B69-50EE-0F90-C4AED30293D3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>96C2F1B1-91B5-7C27-489F-CB0633183272</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="cod_prod &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0FE9462-F772-BD9D-B404-6C61C56ABD8A" referredColumn="F3013B66-267E-4270-C7A2-DEEC0F43490E"/>
+</associations>
+</Column>
+<Column name="qtd_ped" id="D980203E-1933-44EE-04AA-21792DFC200F">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>046911AE-FC3A-1D1B-8960-659B7375CF82</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7958DDDA-1736-C535-4E2E-FF774B864771</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="qtd_ped &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco_pro" id="82EF93D8-3009-3883-0AA7-B6B36E246041">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>73C6AC6F-BF09-1C1A-E9D6-C78146272AB8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>20D3C2E2-D6CB-5B9E-998D-786A19E2D834</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="preco_pro &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="608C0E43-1964-F6B5-6582-8A391D0AE6A6" name="itn_pk">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>77F932CA-9A9A-0BF5-7650-F8458BC4162D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="662B4D51-F135-F96E-0555-B952484EC508"/>
+<colUsage columnID="1D7257C3-3A8D-D15A-4AF3-BDD52220943F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20C4BE76-9963-DEF7-6C86-929649E8BADE" name="itn_idx_num_nota">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>CDF2C60D-FEDE-84EF-D346-18056558E57E</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="662B4D51-F135-F96E-0555-B952484EC508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A1E2537-3369-DFDE-487C-E96560D92160" name="itn_idx_cod_prod">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<importedID>CD05B0AC-CCCF-B5F3-0956-9A0B0D737F6C</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D7257C3-3A8D-D15A-4AF3-BDD52220943F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2574685D-0C30-F8A6-1045-E95C8D4CCCF8" name="itn_fk_not">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="662B4D51-F135-F96E-0555-B952484EC508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07E8B5BA-2F4D-94A4-688B-4EF8D3E5F22E" name="itn_fk_pro">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:21:04 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D7257C3-3A8D-D15A-4AF3-BDD52220943F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8582A057-9721-3E9B-80FF-6183F41E3CD3" containerWithKeyObject="1B485CAD-9903-2C3E-0E53-A59AFC4B4F65" localFKIndex="935A9300-0099-D870-2DF7-AFDD628A55F4" name="FT_LOCACOES_DM_TITULO_FK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:52:36 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B9AC5628-53DA-27EB-0FBB-B5E2104097FF</referredTableID>
+<keyObject>3D4E9B82-8E76-54E1-91E7-EECC72F0FBB8</keyObject>
+<referredKeyID>3D4E9B82-8E76-54E1-91E7-EECC72F0FBB8</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

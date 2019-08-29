@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="EE04F7E8-EC4A-D2E0-A8A7-B76B7E0D6A1F" name="folha_rh_star" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

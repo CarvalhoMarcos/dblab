@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TIPOS_SOCIOS" directorySegmentName="seg_0" id="4D0866D3-8AF7-5C23-1B47-857A7BB59AEB">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<schemaObject>26310133-E2B7-DCAB-1D5B-49122448E654</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AB1105D3-5A70-0AD1-5289-B27505FDB58A</segment>
+<tableSpace>F1E2FD2E-F5EC-6BA7-CEEC-5A1C67B389BC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TPS_PK" id="1932382A-58FC-EAAB-B5AB-E9875B47BE05">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<schemaObject>26310133-E2B7-DCAB-1D5B-49122448E654</schemaObject>
+<segment>805870F6-CD69-622C-08BE-4AD076FF260B</segment>
+<tableSpace>F1E2FD2E-F5EC-6BA7-CEEC-5A1C67B389BC</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TPS_DSC_TPS_I" id="6759668D-3116-7F2D-530F-1C52FC79D8EA">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<schemaObject>26310133-E2B7-DCAB-1D5B-49122448E654</schemaObject>
+<segment>805870F6-CD69-622C-08BE-4AD076FF260B</segment>
+<tableSpace>F1E2FD2E-F5EC-6BA7-CEEC-5A1C67B389BC</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LIM_TIT" id="2A0A8DCB-7D93-DAF9-7AB0-EDD03A30F8F8">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DSC_TPS" id="3143B2B4-42B1-9C9C-9BFF-874620BE1F82">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_TPS" id="4610F2DE-3144-ECE0-352C-3922BD758B82">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VAL_BASE" id="EBF53C07-FC79-8E17-989C-169BB7B67924">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TPS_PK" id="37D103EF-9774-38C0-0DCF-127992EF8252">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:10 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<segment>805870F6-CD69-622C-08BE-4AD076FF260B</segment>
+<tableSpace>F1E2FD2E-F5EC-6BA7-CEEC-5A1C67B389BC</tableSpace>
+<existingIndex>1932382A-58FC-EAAB-B5AB-E9875B47BE05</existingIndex>
+<indexSegment>805870F6-CD69-622C-08BE-4AD076FF260B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

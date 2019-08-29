@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2830614-39DA-9972-8813-2C01CC3C3455" name="DM_FAIXAS_ETARIAS">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:50:02 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FAIXA" id="4F00F1DA-5A67-A00E-DEDD-7EE1D318AC80">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:50:40 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DSC_FAIXA" id="D0E86140-5A18-CDBC-605D-160B85EE0B6B">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:50:40 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3080ABB4-64B5-7460-AEF4-B0134B14D475" name="DM_FAIXAS_ETARIAS_PK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:50:40 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F00F1DA-5A67-A00E-DEDD-7EE1D318AC80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

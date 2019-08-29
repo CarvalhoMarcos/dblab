@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DC630AF5-459F-9038-C5E3-AC01DBFB0915" containerWithKeyObject="D8A8719A-BF17-6D7D-246C-42A4D6D4F142" localFKIndex="D7C450A2-B6B0-F07A-CC7C-1502DB28BD97" name="FT_LANCAMENTOS_DM_FAIXAS_ETARIAS_FK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 23:27:09 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F2830614-39DA-9972-8813-2C01CC3C3455</referredTableID>
+<keyObject>3080ABB4-64B5-7460-AEF4-B0134B14D475</keyObject>
+<referredKeyID>3080ABB4-64B5-7460-AEF4-B0134B14D475</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

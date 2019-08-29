@@ -1,0 +1,236 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CE5D1D7-F856-DB3D-4B6A-9D3C573DD3B6" name="ITENS_LOCACOES">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>ITENS_LOCACOES</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_SOC" id="BF216F9F-81EB-0674-B258-75C6D60A58B3">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ITENS_LOCACOES</sourceObjSchema>
+<sourceObjName>COD_SOC</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00177011</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" cod_soc &gt; 0 "/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8EA4312-711C-0003-695F-BD10C2EF00EB" referredColumn="1C67ED4F-D9DE-A55D-AA8B-2A82F2DD9CBC"/>
+</associations>
+</Column>
+<Column name="DAT_LOC" id="90877F29-2CA9-B8C4-94D1-E51B48CF62C0">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ITENS_LOCACOES</sourceObjSchema>
+<sourceObjName>DAT_LOC</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8EA4312-711C-0003-695F-BD10C2EF00EB" referredColumn="DBC9798D-316A-D538-76E0-2446F5B86F65"/>
+</associations>
+</Column>
+<Column name="COD_TIT" id="3DE4C675-79F9-59FD-C073-D7C5F18C77A0">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ITENS_LOCACOES</sourceObjSchema>
+<sourceObjName>COD_TIT</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00177012</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" cod_tit &gt; 0 "/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA564223-B906-6450-69FE-1BE9F9557E81" referredColumn="5356C821-ACD0-2AB3-4469-FB4496280077"/>
+</associations>
+</Column>
+<Column name="NUM_COP" id="0FD126C9-23E8-27E0-739B-0FE181190AC2">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ITENS_LOCACOES</sourceObjSchema>
+<sourceObjName>NUM_COP</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00177013</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" num_cop &gt; 0 "/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA564223-B906-6450-69FE-1BE9F9557E81" referredColumn="F82A1424-DB32-86B2-0842-5DBDFDB22FEA"/>
+</associations>
+</Column>
+<Column name="DAT_PREV" id="A900B9EA-303B-2DBD-B93F-C34E2A984471">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ITENS_LOCACOES</sourceObjSchema>
+<sourceObjName>DAT_PREV</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VAL_LOC" id="60C8797C-4F19-BE91-C223-8105953D824D">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ITENS_LOCACOES</sourceObjSchema>
+<sourceObjName>VAL_LOC</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00177014</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" val_loc &gt; 0 "/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STA_MUL" id="0C77C483-1A2B-A073-E784-4BCEFD557D45">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ITENS_LOCACOES</sourceObjSchema>
+<sourceObjName>STA_MUL</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00177015</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;P&apos;" description=""/>
+<valueDef value="&apos;Q&apos;" description=""/>
+</listOfValues>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_DEV" id="B8B068BB-718B-280E-C8BC-CC9F2DE9D4E9">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ITENS_LOCACOES</sourceObjSchema>
+<sourceObjName>DAT_DEV</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3634251-311C-8D8E-5845-01064E7FBD0C" name="ITL_PK">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>ITL_PK</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF216F9F-81EB-0674-B258-75C6D60A58B3"/>
+<colUsage columnID="90877F29-2CA9-B8C4-94D1-E51B48CF62C0"/>
+<colUsage columnID="3DE4C675-79F9-59FD-C073-D7C5F18C77A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79D3EDB2-E29A-3F8B-0756-7AF917E760C6" schemaObject="26310133-E2B7-DCAB-1D5B-49122448E654" name="ITL_PK">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>ITL_PK</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF216F9F-81EB-0674-B258-75C6D60A58B3"/>
+<colUsage columnID="90877F29-2CA9-B8C4-94D1-E51B48CF62C0"/>
+<colUsage columnID="3DE4C675-79F9-59FD-C073-D7C5F18C77A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="850B438D-8715-EC74-377F-61E61EDFA106" schemaObject="26310133-E2B7-DCAB-1D5B-49122448E654" name="ITL_FK_COP_I">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>ITL_FK_COP_I</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DE4C675-79F9-59FD-C073-D7C5F18C77A0"/>
+<colUsage columnID="0FD126C9-23E8-27E0-739B-0FE181190AC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A91D45DB-CB8C-D147-5D2D-F8F84050E9B8" name="ITL_FK_COP">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:11 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DE4C675-79F9-59FD-C073-D7C5F18C77A0"/>
+<colUsage columnID="0FD126C9-23E8-27E0-739B-0FE181190AC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EEB300D1-E6D2-EBE8-8333-E6E531DBAC95" name="ITL_FK_LOC">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:11 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF216F9F-81EB-0674-B258-75C6D60A58B3"/>
+<colUsage columnID="90877F29-2CA9-B8C4-94D1-E51B48CF62C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

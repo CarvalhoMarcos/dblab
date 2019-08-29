@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="4CA693DA-F6B2-638A-D94C-4266CC1F0A60" name="locadora_operacional" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

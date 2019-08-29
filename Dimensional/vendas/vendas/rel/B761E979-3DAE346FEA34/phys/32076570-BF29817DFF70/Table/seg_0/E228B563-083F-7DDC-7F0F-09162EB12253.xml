@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DM_TIPOS_VENDAS" directorySegmentName="seg_0" id="E228B563-083F-7DDC-7F0F-09162EB12253">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:32:57 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DESC_TIPO_VENDA" id="3FB86401-525B-844B-6722-0BEBF8AD59CC">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:33:31 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TIPO_VENDA" id="E433D4F4-5E0E-141C-2883-D3E352A2B9A3">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:33:31 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DM_TIPOS_VENDAS_PK" id="6685C96F-F062-8E23-26FF-FB5743BAE626">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:33:47 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

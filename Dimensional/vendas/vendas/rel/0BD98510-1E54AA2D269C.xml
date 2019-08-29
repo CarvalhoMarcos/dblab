@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="vendas_operacional" id="0BD98510-2DFF-FDEA-C22A-1E54AA2D269C" mainViewID="9586EC30-5EEB-7784-9E83-85DD0CE085CD">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:16:07 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>tabelas.plb</fileName>
+<pathName>C:\Users\thiago-notebook\Downloads\Controle de Vendas</pathName>
+<dbType>9</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

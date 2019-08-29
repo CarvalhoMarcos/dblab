@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F77BD69-8D12-4EA2-EF8E-0F75E1F79EFF" name="DM_PRODUTOS">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:23:46 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PROD" id="E758405F-CD91-7B93-691E-45C26617EC80">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:27:06 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DSC_PROD" id="196154EF-3CDB-A633-01B8-92A723CFEF4F">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:27:22 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1C4DDE1-E0C7-1AA0-AB90-7B9D55EDB777</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_FORN" id="F276B451-A52E-FB2D-62F3-725136769610">
+<sourceDDLFile>tabelas.plb</sourceDDLFile>
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:27:41 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1C4DDE1-E0C7-1AA0-AB90-7B9D55EDB777</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGIAO_FORN" id="B1B5B6E7-D9D9-97B4-4F1A-F8F65BE2E2F6">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:32:50 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLASSE_PROD" id="D1E7149E-1DAC-1CB7-F076-698AAC2688F4">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:34:41 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EE288557-6218-2A14-0903-AA0474DEC424" name="DM_PRODUTOS_PK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:27:18 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E758405F-CD91-7B93-691E-45C26617EC80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

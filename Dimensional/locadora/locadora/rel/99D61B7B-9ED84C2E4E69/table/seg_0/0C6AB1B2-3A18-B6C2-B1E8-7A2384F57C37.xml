@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C6AB1B2-3A18-B6C2-B1E8-7A2384F57C37" name="GRAVADORAS">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>GRAVADORAS</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_GRAV" id="A737855E-77A6-EA59-1E97-D5D1452F8287">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>GRAVADORAS</sourceObjSchema>
+<sourceObjName>COD_GRAV</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176929</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" cod_grav &gt; 0 "/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UF_GRAV" id="922C9A88-29A4-0F5B-138E-14294F4FDB9F">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>GRAVADORAS</sourceObjSchema>
+<sourceObjName>UF_GRAV</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176930</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;AC&apos;" description=""/>
+<valueDef value="&apos;AL&apos;" description=""/>
+<valueDef value="&apos;AM&apos;" description=""/>
+<valueDef value="&apos;BA&apos;" description=""/>
+<valueDef value="&apos;CE&apos;" description=""/>
+<valueDef value="&apos;DF&apos;" description=""/>
+<valueDef value="&apos;ES&apos;" description=""/>
+<valueDef value="&apos;GO&apos;" description=""/>
+<valueDef value="&apos;MA&apos;" description=""/>
+<valueDef value="&apos;MG&apos;" description=""/>
+<valueDef value="&apos;MS&apos;" description=""/>
+<valueDef value="&apos;MT&apos;" description=""/>
+<valueDef value="&apos;PA&apos;" description=""/>
+<valueDef value="&apos;PB&apos;" description=""/>
+<valueDef value="&apos;PE&apos;" description=""/>
+<valueDef value="&apos;PI&apos;" description=""/>
+<valueDef value="&apos;PR&apos;" description=""/>
+<valueDef value="&apos;RJ&apos;" description=""/>
+<valueDef value="&apos;RN&apos;" description=""/>
+<valueDef value="&apos;RO&apos;" description=""/>
+<valueDef value="&apos;RR&apos;" description=""/>
+<valueDef value="&apos;RS&apos;" description=""/>
+<valueDef value="&apos;SC&apos;" description=""/>
+<valueDef value="&apos;SE&apos;" description=""/>
+<valueDef value="&apos;SP&apos;" description=""/>
+<valueDef value="&apos;TO&apos;" description=""/>
+</listOfValues>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAC_BRAS" id="80D57086-00BF-D5A0-B416-4379F221F222">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>GRAVADORAS</sourceObjSchema>
+<sourceObjName>NAC_BRAS</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176931</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;F&apos;" description=""/>
+<valueDef value="&apos;V&apos;" description=""/>
+</listOfValues>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_GRAV" id="E2C306A1-BEE3-2751-A0AB-31910B964F1A">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>GRAVADORAS</sourceObjSchema>
+<sourceObjName>NOM_GRAV</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14950C0F-F88A-BF82-DE55-8E6A6E1B05F8" name="GRV_PK">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>GRV_PK</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A737855E-77A6-EA59-1E97-D5D1452F8287"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCB1CB5D-9AE6-7C9D-3CE6-583D2CA17D8F" schemaObject="26310133-E2B7-DCAB-1D5B-49122448E654" name="GRV_PK">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>GRV_PK</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A737855E-77A6-EA59-1E97-D5D1452F8287"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A713A82-7E9C-2D29-142D-1984CAD235C3" schemaObject="26310133-E2B7-DCAB-1D5B-49122448E654" name="GRV_NOM_GRAV_I">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>GRV_NOM_GRAV_I</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2C306A1-BEE3-2751-A0AB-31910B964F1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

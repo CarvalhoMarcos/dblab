@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="D47CA501-FBED-D3CE-F033-EAFFACCE2ED6" name="folha_rh_snowflake" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

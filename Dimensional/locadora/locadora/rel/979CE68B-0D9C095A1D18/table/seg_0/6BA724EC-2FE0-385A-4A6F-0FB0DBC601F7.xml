@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6BA724EC-2FE0-385A-4A6F-0FB0DBC601F7" name="DM_TEMPO">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:50:44 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TEMPO" id="E7C68C74-0064-C962-8931-14CF3BB0FE5B">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:51:28 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NU_ANO" id="8A3B5B52-2F74-5868-29B7-206A05914930">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:58:45 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NU_MES" id="92F40326-EC48-DC93-4053-0F5E7A805135">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:58:45 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NU_ANOMES" id="A96D551F-1C18-1967-3852-8B0CB512F1C8">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:58:45 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SG_MES" id="FB2DD6E9-D2A7-E7B6-FE9C-8B8D6159EF67">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:58:45 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_MESANO" id="2DD37C31-BDEC-9689-A72A-867A17900D24">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:58:45 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_MES" id="183A8DBB-AF5C-D296-95AC-C786B23CC0EA">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:58:45 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NU_DIA" id="370B6696-ECCA-4124-86A9-925F3FF3EA36">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:58:45 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_TEMPO" id="720830BD-F18B-0389-1404-1C2844FE3122">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:58:45 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NU_HORA" id="EBFAA5DF-8FD6-EF08-5653-AB1787041B02">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 02:33:14 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>02</dataTypePrecision>
+<ownDataTypeParameters>,02,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TURNO" id="C678A197-5661-1A74-1611-8DF6D1ABF898">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:58:45 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47CE6298-768F-95FE-B03E-AA0F0094A86C" name="DM_TEMPO_PK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 01:51:28 UTC</createdTime>
+<ownerDesignName>locadora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7C68C74-0064-C962-8931-14CF3BB0FE5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

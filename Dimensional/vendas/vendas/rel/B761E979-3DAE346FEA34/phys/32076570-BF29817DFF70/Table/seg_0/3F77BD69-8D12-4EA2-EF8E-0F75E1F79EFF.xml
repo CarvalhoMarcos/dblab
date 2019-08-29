@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DM_PRODUTOS" directorySegmentName="seg_0" id="3F77BD69-8D12-4EA2-EF8E-0F75E1F79EFF">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:23:46 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DSC_PROD" id="196154EF-3CDB-A633-01B8-92A723CFEF4F">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:27:22 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGIAO_FORN" id="B1B5B6E7-D9D9-97B4-4F1A-F8F65BE2E2F6">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:32:50 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLASSE_PROD" id="D1E7149E-1DAC-1CB7-F076-698AAC2688F4">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:34:41 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PROD" id="E758405F-CD91-7B93-691E-45C26617EC80">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:27:06 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOM_FORN" id="F276B451-A52E-FB2D-62F3-725136769610">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:27:41 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DM_PRODUTOS_PK" id="EE288557-6218-2A14-0903-AA0474DEC424">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:27:18 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

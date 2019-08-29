@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="FT_VENDAS" directorySegmentName="seg_0" id="CB253017-74AB-8DBD-73B5-5B0AFA3C6A8E">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:23:09 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_TEMPO" id="13327F90-8F51-9360-4AC8-EB5AB5F6C9B2">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:35:02 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PROD" id="9068C98E-1D2C-74E7-CF73-DD16BB129B9F">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:34:55 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TIPO_VENDA" id="AC0D1B83-CD71-7762-788D-9C45AEC8ACF9">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:35:08 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VALOR_VENDA" id="FD341D04-DD0E-1047-90EE-2C4FC0322762">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:23:28 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FT_VENDAS_DM_TIPOS_VENDAS_FK" id="1F5E9C77-39D2-C90E-8550-C964A8338260">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:35:28 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FT_VENDAS_DM_PRODUTOS_FK" id="491DD6C5-2210-ADFC-81CA-96369CE256EE">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:35:28 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FT_VENDAS_DM_TEMPO_FK" id="784CF0BD-E14A-0E73-11A3-5542EA46C35C">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-08 20:35:28 UTC</createdTime>
+<ownerDesignName>vendas</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

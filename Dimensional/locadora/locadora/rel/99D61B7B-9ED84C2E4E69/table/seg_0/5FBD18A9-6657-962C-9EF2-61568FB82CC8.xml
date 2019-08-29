@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5FBD18A9-6657-962C-9EF2-61568FB82CC8" name="COPIAS">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>COPIAS</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_TIT" id="5356C821-ACD0-2AB3-4469-FB4496280077">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>COPIAS</sourceObjSchema>
+<sourceObjName>COD_TIT</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176969</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" cod_tit &gt; 0 "/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50DC1B5D-8EB8-8594-8971-436ACBA7B0C7" referredColumn="9586FF73-FE68-7F11-0C34-EDBDC3D6C998"/>
+</associations>
+</Column>
+<Column name="NUM_COP" id="F82A1424-DB32-86B2-0842-5DBDFDB22FEA">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>COPIAS</sourceObjSchema>
+<sourceObjName>NUM_COP</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176970</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" num_cop &gt; 0 "/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_AQ" id="05A9EE02-8B8B-653C-12DF-5460A1FBDF66">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>COPIAS</sourceObjSchema>
+<sourceObjName>DAT_AQ</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="1D1B4E06-7AE0-7856-994B-22D86DA8C96E">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>COPIAS</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176971</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;A&apos;" description=""/>
+<valueDef value="&apos;I&apos;" description=""/>
+</listOfValues>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B927A22-FC7E-EF02-FCB9-74193A91C038" name="COP_PK">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>COP_PK</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5356C821-ACD0-2AB3-4469-FB4496280077"/>
+<colUsage columnID="F82A1424-DB32-86B2-0842-5DBDFDB22FEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="208B9658-1F88-B836-0BEA-B59DDAFFEB5F" schemaObject="26310133-E2B7-DCAB-1D5B-49122448E654" name="COP_PK">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>COP_PK</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5356C821-ACD0-2AB3-4469-FB4496280077"/>
+<colUsage columnID="F82A1424-DB32-86B2-0842-5DBDFDB22FEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F442D4EB-FF8A-91A0-DF39-90A94923A74D" schemaObject="26310133-E2B7-DCAB-1D5B-49122448E654" name="COP_FK_TIT_I">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>COP_FK_TIT_I</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5356C821-ACD0-2AB3-4469-FB4496280077"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1F3BFCB-B07B-9A9C-625E-95A1306F685A" name="COP_FK_TIT">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:11 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5356C821-ACD0-2AB3-4469-FB4496280077"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

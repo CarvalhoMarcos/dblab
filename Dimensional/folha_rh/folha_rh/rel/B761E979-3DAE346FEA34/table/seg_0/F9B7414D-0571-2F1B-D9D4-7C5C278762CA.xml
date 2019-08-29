@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9B7414D-0571-2F1B-D9D4-7C5C278762CA" name="DM_RUBRICAS">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:39:32 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RUBRICA" id="F774A38A-FFF9-B0CE-9A45-D98FA9CD0C49">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:42:21 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DSC_RUBRICA" id="13BD6350-7CE7-F0BE-9E14-D5EE8FBD7247">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:42:21 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DSC_GRUPO_RUBRICA" id="C90FA1AA-12E4-7242-1EDC-1A0002E1CCE0">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:42:21 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62902EF4-8BF7-465F-4EB8-C5DD80607E5F" name="DM_RUBRICAS_PK">
+<createdBy>thiago-notebook</createdBy>
+<createdTime>2019-03-01 22:42:21 UTC</createdTime>
+<ownerDesignName>folha_rh</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F774A38A-FFF9-B0CE-9A45-D98FA9CD0C49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

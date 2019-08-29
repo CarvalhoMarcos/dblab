@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B64F5385-18B3-C59C-DDA7-6191050C5709" name="SOCIOS">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>SOCIOS</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_SOC" id="901820E1-EC29-91E0-73A2-75B9BE17A877">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>SOCIOS</sourceObjSchema>
+<sourceObjName>COD_SOC</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176987</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" cod_soc &gt; 0 "/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_CAD" id="F9B5594C-A9BC-025C-BA68-BC2C8A96517A">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>SOCIOS</sourceObjSchema>
+<sourceObjName>DAT_CAD</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_TPS" id="B31A3CF3-B849-611B-C26B-1252A6DD668B">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>SOCIOS</sourceObjSchema>
+<sourceObjName>COD_TPS</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176988</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition=" cod_tps &gt; 0 "/>
+</checkConstraint>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A27DD1B2-AB40-E5C8-992E-158A66A6372A" referredColumn="4610F2DE-3144-ECE0-352C-3922BD758B82"/>
+</associations>
+</Column>
+<Column name="STA_SOC" id="64A8D415-3D26-846A-CBF0-770B3F2E5C9A">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>SOCIOS</sourceObjSchema>
+<sourceObjName>STA_SOC</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<constraintName>SYS_C00176989</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;A&apos;" description=""/>
+<valueDef value="&apos;C&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+</listOfValues>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_SOC" id="096A9446-88B4-182D-F3D3-6AC8FE2752FB">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>SOCIOS</sourceObjSchema>
+<sourceObjName>NOM_SOC</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9447DF4-16DC-FD6E-AD8B-346EDB70F101" name="SOC_PK">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>SOC_PK</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="901820E1-EC29-91E0-73A2-75B9BE17A877"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99C9FF95-0D6D-58CB-24A7-4A6A6C21F65E" schemaObject="26310133-E2B7-DCAB-1D5B-49122448E654" name="SOC_PK">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>SOC_PK</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="901820E1-EC29-91E0-73A2-75B9BE17A877"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C767F27E-AC22-DAAE-8030-B7EDAE691BC8" schemaObject="26310133-E2B7-DCAB-1D5B-49122448E654" name="SOC_FK_TPS_I">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>SOC_FK_TPS_I</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B31A3CF3-B849-611B-C26B-1252A6DD668B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="250E532D-9B3F-F8FE-4A0E-AA2089F5691D" schemaObject="26310133-E2B7-DCAB-1D5B-49122448E654" name="SOC_NOM_SOC_I">
+<sourceConnName>tesunit</sourceConnName>
+<sourceObjSchema>ABNEIDE</sourceObjSchema>
+<sourceObjName>SOC_NOM_SOC_I</sourceObjName>
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="096A9446-88B4-182D-F3D3-6AC8FE2752FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A7B981C-6F6F-4837-A20F-CCFB6CCD64C0" name="SOC_FK_TPS">
+<createdBy>thiago_oliveira</createdBy>
+<createdTime>2019-02-27 19:02:11 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>locadora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B31A3CF3-B849-611B-C26B-1252A6DD668B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
