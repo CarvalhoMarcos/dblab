@@ -2,9 +2,13 @@ declare
 begin
 for art in(
     select a.cod_art, a.tpo_art, a.nac_bras, a.nom_art
-    from locadora.artistas a)
+    from locadora.artistas a
+)
 loop
-    insert into LOCADORA_DW.DM_ARTISTA values(art.cod_art, art.tpo_art, art.nac_bras, art.nom_art);
+    insert into LOCADORA_DW.DM_ARTISTA values(art.cod_art, 
+                                              art.tpo_art, 
+                                              art.nac_bras, 
+                                              art.nom_art);
     commit;
 end loop;
 
@@ -13,7 +17,10 @@ for gra in(
     from locadora.gravadoras g
 )
 loop
-    insert into LOCADORA_DW.DM_GRAVADORA values(gra.cod_grav, gra.uf_grav, gra.nac_bras, gra.nom_grav);
+    insert into LOCADORA_DW.DM_GRAVADORA values(gra.cod_grav, 
+                                                gra.uf_grav, 
+                                                gra.nac_bras, 
+                                                gra.nom_grav);
     commit;
 end loop;
 
@@ -23,7 +30,9 @@ for soc in (
     where s.cod_tps = ts.cod_tps
 )
 loop
-    insert into LOCADORA_DW.DM_SOCIO values (soc.cod_soc, soc.nom_soc, soc.dsc_tps);
+    insert into LOCADORA_DW.DM_SOCIO values (soc.cod_soc, 
+                                             soc.nom_soc, 
+                                             soc.dsc_tps);
     commit;
 end loop;
 
@@ -32,10 +41,38 @@ for tit in (
     from locadora.TITULOS t
 )
 loop
-    insert into LOCADORA_DW.DM_TITULO values (tit.cod_tit, tit.tpo_tit, tit.cla_tit, tit.dsc_tit);
+    insert into LOCADORA_DW.DM_TITULO values (tit.cod_tit, 
+                                              tit.tpo_tit, 
+                                              tit.cla_tit, 
+                                              tit.dsc_tit);
     commit;
 end loop;
 
+for dat in (
+    select distinct to_number(to_char(dt.dat_loc, 'MM')) MES, 
+                    to_number(to_char(dt.dat_loc, 'YYYY')) ANO,
+                    to_number(to_char(dt.dat_loc, 'DDMMYY')) TUDO, 
+                    to_number(to_char(dt.dat_loc, 'YYYYMM')) ANOMES,
+                    to_char(dt.dat_loc, 'MON') SGMES,
+                    to_char(dt.dat_loc, 'MON')||to_char(dt.dat_loc, 'YYYY') NMMA,
+                    to_char(dt.dat_loc, 'MONTH') NMES,
+                    to_number(to_char(dt.dat_loc, 'DD')) NDIA,
+                    dt.dat_loc DTDATA
+    from locadora.locacoes dt
+)
+loop
+    insert into LOCADORA_DW.DM_TEMPO values(DAT.TUDO, 
+                                            DAT.ANO,
+                                            DAT.MES,
+                                            DAT.ANOMES,
+                                            DAT.SGMES,
+                                            DAT.NMMA,
+                                            DAT.NMES,
+                                            DAT.NDIA,
+                                            DAT.DTDATA);
+    COMMIT;
+end loop;
+    
 end;
 
-select to_char(dat_venc, 'YYYYMM') from locacoes
+--select to_char(dat_venc, 'YYYYMM') from locacoes
