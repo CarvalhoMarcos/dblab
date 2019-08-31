@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD849B6F-563F-358D-A5B8-B23EE0DF4519" name="FT_DADOS">
+<createdBy>Felipe Carvalho</createdBy>
+<createdTime>2019-08-31 11:12:30 UTC</createdTime>
+<ownerDesignName>dim_bf</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TEMPO" id="2734FA3C-22D0-2A5C-8E55-676D4543AF8D">
+<createdBy>Felipe Carvalho</createdBy>
+<createdTime>2019-08-31 11:15:26 UTC</createdTime>
+<ownerDesignName>dim_bf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_LOCAL" id="B083AD8A-F1BC-DC4A-6D82-45A19CD8EF1E">
+<createdBy>Felipe Carvalho</createdBy>
+<createdTime>2019-08-31 11:15:26 UTC</createdTime>
+<ownerDesignName>dim_bf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69082BF7-C3F4-189B-ACBD-FC1AC2B7D929" referredColumn="1C88497E-B8EA-A0C0-EF26-80154519257A"/>
+</associations>
+</Column>
+<Column name="VALOR" id="E143C3B7-D95D-38B1-90AE-14117EEE4065">
+<createdBy>Felipe Carvalho</createdBy>
+<createdTime>2019-08-31 11:15:26 UTC</createdTime>
+<ownerDesignName>dim_bf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QNT_BENE" id="ABB26A39-336F-C260-3815-7C26539FA4FB">
+<createdBy>Felipe Carvalho</createdBy>
+<createdTime>2019-08-31 11:15:26 UTC</createdTime>
+<ownerDesignName>dim_bf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DM_TEMPO_ID_TEMPO" id="9813CD40-E5F1-45E6-519A-B4732384ED52">
+<createdBy>Felipe Carvalho</createdBy>
+<createdTime>2019-08-31 11:20:19 UTC</createdTime>
+<ownerDesignName>dim_bf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43ED760F-361A-386E-90FE-8BB8840226AB" referredColumn="E2F19E83-9239-26A2-96F1-D4B5C8381C33"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C386FE80-5FC4-943F-9A3C-EAE801B1C1C7" name="FT_DADOS_PK">
+<createdBy>Felipe Carvalho</createdBy>
+<createdTime>2019-08-31 11:15:26 UTC</createdTime>
+<ownerDesignName>dim_bf</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2734FA3C-22D0-2A5C-8E55-676D4543AF8D"/>
+<colUsage columnID="B083AD8A-F1BC-DC4A-6D82-45A19CD8EF1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CAC0660-417D-5980-F964-41BB35C5C1C6" name="ID_TEMPO_FK">
+<createdBy>Felipe Carvalho</createdBy>
+<createdTime>2019-08-31 11:20:19 UTC</createdTime>
+<ownerDesignName>dim_bf</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9813CD40-E5F1-45E6-519A-B4732384ED52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27D32A4B-2B8F-6480-535F-81425C057CAD" name="ID_LOCAL_FK">
+<createdBy>Felipe Carvalho</createdBy>
+<createdTime>2019-08-31 11:24:52 UTC</createdTime>
+<ownerDesignName>dim_bf</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B083AD8A-F1BC-DC4A-6D82-45A19CD8EF1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

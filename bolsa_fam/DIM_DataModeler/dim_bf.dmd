@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="dim_bf" id="E72C7CC9-46AF-07B9-8232-963BB563DA11" version="3.5">
+<createdBy>Felipe Carvalho</createdBy>
+<createdTime>2019-08-30 22:45:20 UTC</createdTime>
+<ownerDesignName>dim_bf</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E72C7CC9-46AF-07B9-8232-963BB563DA11</designId>
+</OSDM_Design>

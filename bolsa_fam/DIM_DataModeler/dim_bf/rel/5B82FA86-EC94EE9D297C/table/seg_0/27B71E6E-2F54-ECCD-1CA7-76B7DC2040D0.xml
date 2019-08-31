@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27B71E6E-2F54-ECCD-1CA7-76B7DC2040D0" name="DM_TEMPO">
+<createdBy>Felipe Carvalho</createdBy>
+<createdTime>2019-08-31 10:58:33 UTC</createdTime>
+<ownerDesignName>dim_bf</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUM_MES" id="512DDB72-975B-45F9-B968-998CBB11D8DD">
+<createdBy>Felipe Carvalho</createdBy>
+<createdTime>2019-08-31 11:01:50 UTC</createdTime>
+<ownerDesignName>dim_bf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_SMT" id="1F59376F-923A-751D-FB9A-2C00311E61DA">
+<createdBy>Felipe Carvalho</createdBy>
+<createdTime>2019-08-31 11:01:50 UTC</createdTime>
+<ownerDesignName>dim_bf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_ANO" id="2BC24B4F-779A-E664-2BAA-007999AE0182">
+<createdBy>Felipe Carvalho</createdBy>
+<createdTime>2019-08-31 11:01:50 UTC</createdTime>
+<ownerDesignName>dim_bf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BI_ANO" id="6816B607-44AB-186A-D426-3E1824C8EFC3">
+<createdBy>Felipe Carvalho</createdBy>
+<createdTime>2019-08-31 11:01:50 UTC</createdTime>
+<ownerDesignName>dim_bf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRI_ANO" id="7E1BDC83-7AA7-92EF-5C97-277116F7226C">
+<createdBy>Felipe Carvalho</createdBy>
+<createdTime>2019-08-31 11:01:50 UTC</createdTime>
+<ownerDesignName>dim_bf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TEMPO" id="E2F19E83-9239-26A2-96F1-D4B5C8381C33">
+<createdBy>Felipe Carvalho</createdBy>
+<createdTime>2019-08-31 11:01:50 UTC</createdTime>
+<ownerDesignName>dim_bf</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1C4026F-3FE1-CF63-7CDB-95F3CBEF2AA8" name="DM_TEMPO_PK">
+<createdBy>Felipe Carvalho</createdBy>
+<createdTime>2019-08-31 11:01:50 UTC</createdTime>
+<ownerDesignName>dim_bf</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2F19E83-9239-26A2-96F1-D4B5C8381C33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
