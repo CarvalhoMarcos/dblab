@@ -1,6 +1,8 @@
 DECLARE
  v_regiao vendas_dw.DM_PRODUTOS.regiao_forn%TYPE;
  v_classp vendas_dw.DM_PRODUTOS.classe_prod%TYPE;
+ v_tpvend VENDAS_DW.ft_vendas.id_tipo_venda%TYPE;
+ 
 BEGIN
 --PRODUTO--
 FOR pro IN(
@@ -80,12 +82,27 @@ loop
 end loop;
 
 --VENDAS--
-SELECT inota.cod_prod cpro, inota.preco_pro * inota.qtd_ped vped, to_char(nf.dat_nota, 'DDMMY') dt
-FROM itens_de_nota inota, notas_fiscais nf
-WHERE inota.num_nota = nf.num_nota 
+for vnd in(
+-- Esse select so falta o campo do tipo de venda 
+    SELECT inota.cod_prod cpro, inota.preco_pro * inota.qtd_ped vped, to_char(nf.dat_nota, 'DDMMY') dt
+    FROM itens_de_nota inota, notas_fiscais nf
+    WHERE inota.num_nota = nf.num_nota 
+)
+loop
+--colocar o insert no loop
 
-select pe.num_ped, p.num_ped
+end loop;
+
+/* selects que não puxam o que quero
+select count distinct pe.num_ped, p.num_ped
 from parcelas p, pedidos pe
 where pe.num_ped = p.num_ped(+)
+
+select count(distinct num_ped) from parcelas;
+
+select p.num_ped nped, count(distinct p.dat_venc) nparc
+from parcelas p
+group by num_ped
+*/
 
 END;
