@@ -72,7 +72,27 @@ loop
                                             DAT.DTDATA);
     COMMIT;
 end loop;
-    
+
+for loc in (
+            select ar.cod_art artista, tit.cod_tit titulo, grav.cod_grav gravadora, il.cod_soc socio, il.dat_loc dtlocacao, il.dat_dev - loc.dat_venc atraso, il.val_loc valor, il.sta_mul estadoMulta
+            from artistas ar, titulos tit, gravadoras grav, itens_locacoes il, locacoes loc
+            where ar.cod_art = tit.cod_art and 
+                  grav.cod_grav = tit.cod_grav (+) and 
+                  il.cod_tit = tit.cod_tit and 
+                  il.cod_soc = loc.cod_soc and 
+                  il.dat_loc = loc.dat_loc
+)
+loop
+--FALTA O ALGORITMO DA MULTA
+commit;
+end loop;
+   
 end;
 
 --select to_char(dat_venc, 'YYYYMM') from locacoes
+
+/*
+select  il.dat_dev - l.dat_venc 
+from itens_locacoes il, locacoes l
+where il.cod_soc = l.cod_soc AND il.dat_loc = l.dat_loc;
+*/
